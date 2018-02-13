@@ -15,11 +15,11 @@
  * @package   Gravity-Forms-Intercom
  * @author    SkyVerge
  * @category  Admin
- * @copyright Copyright (c) 2018, rocketgenius
+ * @copyright Copyright (c) 2018, rocketgenius and 2018, SkyVerge, Inc
  * @license   http://www.gnu.org/licenses/gpl-3.0.html GNU General Public License v3.0
  */
 
-namespace RocketGenius\GravityForms\Intercom;
+namespace SkyVerge\GravityForms\Intercom;
 
 defined( 'ABSPATH' ) or exit;
 
@@ -212,7 +212,7 @@ class GFIntercom extends \GFFeedAddOn {
 	 * @access public
 	 * @static
 	 *
-	 * @return \RocketGenius\GravityForms\Intercom\GFIntercom
+	 * @return \SkyVerge\GravityForms\Intercom\GFIntercom
 	 */
 	public static function get_instance() {
 

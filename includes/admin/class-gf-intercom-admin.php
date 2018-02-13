@@ -15,11 +15,11 @@
  * @package   Gravity-Forms-Intercom
  * @author    SkyVerge
  * @category  Admin
- * @copyright Copyright (c) 2018, rocketgenius
+ * @copyright Copyright (c) 2018, rocketgenius and 2018, SkyVerge, Inc
  * @license   http://www.gnu.org/licenses/gpl-3.0.html GNU General Public License v3.0
  */
 
-namespace RocketGenius\GravityForms\Intercom;
+namespace SkyVerge\GravityForms\Intercom;
 
 defined( 'ABSPATH' ) or exit;
 
@@ -49,9 +49,8 @@ class Admin {
 	 * @since 1.0
 	 *
 	 * @param string $slug plugin slug
-	 * @param object $api IntercomClient api instance
 	 */
-	public function __construct( $slug) {
+	public function __construct( $slug ) {
 
 		$this->slug = $slug;
 

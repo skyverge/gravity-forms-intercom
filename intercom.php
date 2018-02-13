@@ -4,13 +4,13 @@ Plugin Name: Gravity Forms Intercom Add-On
 Plugin URI: http://www.gravityforms.com
 Description: Integrates Gravity Forms with Intercom, enabling end users to create new Intercom conversations.
 Version: 1.0.0
-Author: rocketgenius
-Author URI: http://www.rocketgenius.com
+Author: SkyVerge
+Author URI: http://www.skyverge.com
 Text Domain: gravityformsintercom
 Domain Path: /languages
 
 ------------------------------------------------------------------------
-Copyright 2018 rocketgenius
+Copyright 2018 rocketgenius and 2018 SkyVerge, Inc
 last updated: January 31, 2018
 
 This program is free software; you can redistribute it and/or modify
@@ -47,7 +47,7 @@ class GF_Intercom_Bootstrap {
 	const MINIMUM_PHP_VERSION = '5.6.0';
 
 	/** plugin namespace so we can instantiate the plugin here without PHP 5.2 errors */
-	const PLUGIN_NAMESPACE = 'RocketGenius\GravityForms\Intercom';
+	const PLUGIN_NAMESPACE = 'SkyVerge\GravityForms\Intercom';
 
 	/**
 	 * If the Feed Add-On Framework exists, Intercom Add-On is loaded.
@@ -69,7 +69,7 @@ class GF_Intercom_Bootstrap {
 
 		require_once( 'class-gf-intercom.php' );
 
-		GFAddOn::register( '\RocketGenius\GravityForms\Intercom\GFIntercom' );
+		GFAddOn::register( '\SkyVerge\GravityForms\Intercom\GFIntercom' );
 	}
 
 
@@ -98,9 +98,9 @@ class GF_Intercom_Bootstrap {
 /**
  * Returns an instance of the GFIntercom class.
  *
- * @see  \RocketGenius\GravityForms\Intercom\GFIntercom::get_instance()
+ * @see  \SkyVerge\GravityForms\Intercom\GFIntercom::get_instance()
  *
- * @return \RocketGenius\GravityForms\Intercom\GFIntercom|false
+ * @return \SkyVerge\GravityForms\Intercom\GFIntercom|false
  */
 function gf_intercom() {
 
