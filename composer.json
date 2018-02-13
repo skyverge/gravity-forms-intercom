@@ -1,0 +1,31 @@
+{
+	"name": "rocketgenius/gravityformsintercom",
+	"type": "wordpress-plugin",
+	"authors": [
+		{
+			"name": "SkyVerge",
+			"email": "info@skyverge.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/intercom/intercom-php"
+		}
+	],
+	"require" : {
+		"intercom/intercom-php": "dev-master"
+	},
+	"require-dev": {
+		"mnsami/composer-custom-directory-installer": "1.1.*"
+	},
+	"config": {
+		"vendor-dir": "vendor"
+	},
+	"extra": {
+		"installer-paths": {
+			"includes/api": ["intercom/intercom-php"]
+		}
+	}
+}

@@ -1,0 +1,356 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "361c0bff3ed833c281bf2b740d698e27",
+    "packages": [
+        {
+            "name": "guzzlehttp/guzzle",
+            "version": "6.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/guzzle.git",
+                "reference": "f4db5a78a5ea468d4831de7f0bf9d9415e348699"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/f4db5a78a5ea468d4831de7f0bf9d9415e348699",
+                "reference": "f4db5a78a5ea468d4831de7f0bf9d9415e348699",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/promises": "^1.0",
+                "guzzlehttp/psr7": "^1.4",
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "phpunit/phpunit": "^4.0 || ^5.0",
+                "psr/log": "^1.0"
+            },
+            "suggest": {
+                "psr/log": "Required for using the Log middleware"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "6.2-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/functions_include.php"
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle is a PHP HTTP client library",
+            "homepage": "http://guzzlephp.org/",
+            "keywords": [
+                "client",
+                "curl",
+                "framework",
+                "http",
+                "http client",
+                "rest",
+                "web service"
+            ],
+            "time": "2017-06-22T18:50:49+00:00"
+        },
+        {
+            "name": "guzzlehttp/promises",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/promises.git",
+                "reference": "2e48ae638dc0bf0849772f5590835fcd700a2e1d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/promises/zipball/2e48ae638dc0bf0849772f5590835fcd700a2e1d",
+                "reference": "2e48ae638dc0bf0849772f5590835fcd700a2e1d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.36"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Promise\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                }
+            ],
+            "description": "Guzzle promises library",
+            "keywords": [
+                "promise"
+            ],
+            "time": "2017-12-07T21:04:15+00:00"
+        },
+        {
+            "name": "guzzlehttp/psr7",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/guzzle/psr7.git",
+                "reference": "d2537c86fa8b004c29e9b9f5e10028f0a29df101"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/d2537c86fa8b004c29e9b9f5e10028f0a29df101",
+                "reference": "d2537c86fa8b004c29e9b9f5e10028f0a29df101",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "psr/http-message": "~1.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "GuzzleHttp\\Psr7\\": "src/"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Dowling",
+                    "email": "mtdowling@gmail.com",
+                    "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Tobias Schultze",
+                    "homepage": "https://github.com/Tobion"
+                }
+            ],
+            "description": "PSR-7 message implementation that also provides common utility methods",
+            "keywords": [
+                "http",
+                "message",
+                "request",
+                "response",
+                "stream",
+                "uri",
+                "url"
+            ],
+            "time": "2017-10-07T03:19:56+00:00"
+        },
+        {
+            "name": "intercom/intercom-php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/intercom/intercom-php.git",
+                "reference": "abb2aeb9b044a432034025ee6edc5fecc5a67999"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/intercom/intercom-php/zipball/abb2aeb9b044a432034025ee6edc5fecc5a67999",
+                "reference": "abb2aeb9b044a432034025ee6edc5fecc5a67999",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "~6.0",
+                "php": ">= 5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.0.*",
+                "squizlabs/php_codesniffer": "^3.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Intercom\\": [
+                        "src"
+                    ]
+                }
+            },
+            "license": [
+                "Apache Version 2"
+            ],
+            "authors": [
+                {
+                    "name": "Intercom Platform Team",
+                    "homepage": "http://intercom.io"
+                }
+            ],
+            "description": "Intercom API client built on top of Guzzle 6",
+            "keywords": [
+                "api",
+                "guzzle",
+                "intercom",
+                "intercom.io"
+            ],
+            "support": {
+                "source": "https://github.com/intercom/intercom-php/tree/master",
+                "issues": "https://github.com/intercom/intercom-php/issues"
+            },
+            "time": "2017-11-24T15:26:35+00:00"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2016-08-06T14:39:51+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "mnsami/composer-custom-directory-installer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mnsami/composer-custom-directory-installer.git",
+                "reference": "1ccaf2da421dd9f6bcec4631c38e69e67677125f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mnsami/composer-custom-directory-installer/zipball/1ccaf2da421dd9f6bcec4631c38e69e67677125f",
+                "reference": "1ccaf2da421dd9f6bcec4631c38e69e67677125f",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0",
+                "php": ">=5.3"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": [
+                    "Composer\\CustomDirectoryInstaller\\LibraryPlugin",
+                    "Composer\\CustomDirectoryInstaller\\PearPlugin",
+                    "Composer\\CustomDirectoryInstaller\\PluginPlugin"
+                ],
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Composer\\CustomDirectoryInstaller": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mina Nabil Sami",
+                    "email": "mina.nsami@gmail.com"
+                }
+            ],
+            "description": "A composer plugin, to help install packages of different types in custom paths.",
+            "keywords": [
+                "composer",
+                "composer-installer",
+                "composer-plugin"
+            ],
+            "time": "2017-08-14T19:50:19+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "intercom/intercom-php": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

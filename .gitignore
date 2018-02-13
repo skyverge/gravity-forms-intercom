@@ -1,0 +1,32 @@
+
+# IDEs
+.project
+.settings
+.idea
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+
+# OSX
+.DS_Store
+
+# SASS
+.sass-cache*
+
+# NPM packages used by Grunt.js
+/node_modules
+
+# Bower packages fetched by individual plugins
+bower_components
+
+# Composer
+/vendor
+
+# Builds
+/build
+*.zip
+
+# Docs stuff
+*/docs

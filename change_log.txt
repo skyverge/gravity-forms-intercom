@@ -1,0 +1,4 @@
+** Gravity Forms Intercom Changelog **
+
+# 1.0 | 2018-02-10
+ - It's all new!
